@@ -8,7 +8,7 @@ MAC=np.array([.532,.547,.556,.556,.556,.556,.556,.574,.574,.574,.574,.574,.574,.
 #import data
 class Wing:
     def __init__(self,num):
-        self.data = np.loadtxt(fname='../Pterosaur/%d.txt' %num,skiprows=8, usecols=(1,11))#skips heading
+        self.data = np.loadtxt(fname='./Data/%d.txt' %num,skiprows=8, usecols=(1,11))#skips heading
         self.Cl,self.Xcp = self.data[:,0],self.data[:,1]
 #from XFLR MAC for each wing
         
