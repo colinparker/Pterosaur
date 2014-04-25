@@ -24,7 +24,7 @@ class Wing:
         plt.ylabel('Cl',fontsize=16)
         plt.xlim(xStart,xEnd)
         plt.ylim(yStart,yEnd)
-        plt.plot(self.Cl,-self.Xcp,color,ls=line,lw=2)
+        plt.plot(self.Xcp,-self.CL,color,ls=line,lw=2)
         
 MAC=.556
 
